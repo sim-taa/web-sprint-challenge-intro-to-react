@@ -24,8 +24,8 @@ function App() {
         return (
           <div>
             <h2>{user.name}</h2>
-            <p>{user.height}</p>
-            <p>{user.mass}</p>
+            <p>Height in unknown units: {user.height}</p>
+            <p>Mass in unknown units: {user.mass}</p>
           </div>
         )
       })}
