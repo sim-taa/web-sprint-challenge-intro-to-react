@@ -20,6 +20,15 @@ function App() {
   return (
     <div className="App">
       <h1 className="Header">Welcome to Jar Jar Book</h1>
+      {users.map(user => {
+        return (
+          <div>
+            <h2>{user.name}</h2>
+            <p>{user.height}</p>
+            <p>{user.mass}</p>
+          </div>
+        )
+      })}
     </div>
   );
 }
